@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Proiect Salariati</h1>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Scopul proiectului</h2>
+        <p>
+            Acest proiect are ca scop calcularea salariilor angajatilor unor firme in functie de taxele si impozitele impuse.
+        </p>
+        @*<p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>*@
+    </div>
+    <div class="col-md-4">
+        <h2>Functiile indeplinite</h2>
+        <p>Proiectul ofera posibilitatea utilizatorului de a:</p>
+        <ul>
+            <li>Adauga angajati noi si de a seta datele salariale aferente</li>
+            <li>Modificarea datelor salariale ale angajatilo</li>
+            <li>Stergerea datelor unui anume angajat</li>
+            <li>Tiparirea statutului de plata sau a fluturasilor</li>
+            <li>[Doar pentru administratori] Schimbarea valorilor de impozitare</li>
+        </ul>
+        @*<p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>*@
+    </div>
+    <div class="col-md-4">
+        <h2>Incepe de aici!</h2>
+        <a type="button" value="Editati Salariatii" href="@Url.Action("Index", "Salariat", new { type = "Edit"})" class="btn btn-primary">Salariati</a>
+       
+         @*<p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>*@
+    </div>
+</div>

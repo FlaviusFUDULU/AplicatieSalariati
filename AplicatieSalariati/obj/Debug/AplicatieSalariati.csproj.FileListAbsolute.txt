@@ -1,0 +1,218 @@
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\roslyn\csc.exe
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\roslyn\System.Collections.Immutable.dll
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\roslyn\System.Reflection.Metadata.dll
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\roslyn\vbc.exe
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\roslyn\VBCSCompiler.exe
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\roslyn\VBCSCompiler.exe.config
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\AplicatieSalariati.dll.config
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\AplicatieSalariati.dll
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\AplicatieSalariati.pdb
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Antlr3.Runtime.dll
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\EntityFramework.dll
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\EntityFramework.SqlServer.dll
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.AspNet.Identity.Core.dll
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.dll
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.Cookies.dll
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.dll
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.Facebook.dll
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.Google.dll
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.OAuth.dll
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.Twitter.dll
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Web.Infrastructure.dll
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Newtonsoft.Json.dll
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Owin.dll
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\System.Web.Helpers.dll
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\System.Web.Mvc.dll
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\System.Web.Optimization.dll
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\System.Web.Razor.dll
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\System.Web.WebPages.Deployment.dll
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\System.Web.WebPages.dll
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\System.Web.WebPages.Razor.dll
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\WebGrease.dll
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\System.Web.Helpers.xml
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\System.Web.Mvc.xml
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\System.Web.Optimization.xml
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\System.Web.Razor.xml
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\System.Web.WebPages.xml
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\System.Web.WebPages.Deployment.xml
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\System.Web.WebPages.Razor.xml
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Antlr3.Runtime.pdb
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Newtonsoft.Json.xml
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\EntityFramework.xml
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\EntityFramework.SqlServer.xml
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.AspNet.Identity.Core.xml
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.xml
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.xml
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.Facebook.xml
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.Cookies.xml
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.OAuth.xml
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.Google.xml
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.Twitter.xml
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\obj\Debug\AplicatieSalariati.csprojResolveAssemblyReference.cache
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\obj\Debug\AplicatieSalariati.dll
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\obj\Debug\AplicatieSalariati.pdb
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\obj\Debug\AplicatieSalariati.Migrations.InitialCreate.resources
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\obj\Debug\AplicatieSalariati.csproj.GenerateResource.Cache
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\obj\Debug\AplicatieSalariati.Migrations.FirstMigration.resources
+E:\VisualStudio\AplicatieSalariati\AplicatieSalariati\obj\Debug\AplicatieSalariati.Migrations.Required_Fields.resources
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\roslyn\csc.exe
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\roslyn\System.Collections.Immutable.dll
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\roslyn\System.Reflection.Metadata.dll
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\roslyn\vbc.exe
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\roslyn\VBCSCompiler.exe
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\roslyn\VBCSCompiler.exe.config
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\AplicatieSalariati.dll.config
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\AplicatieSalariati.dll
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\AplicatieSalariati.pdb
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Antlr3.Runtime.dll
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\EntityFramework.dll
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\EntityFramework.SqlServer.dll
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.AspNet.Identity.Core.dll
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.dll
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.Cookies.dll
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.dll
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.Facebook.dll
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.Google.dll
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.OAuth.dll
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.Twitter.dll
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Web.Infrastructure.dll
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Newtonsoft.Json.dll
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Owin.dll
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\System.Web.Helpers.dll
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\System.Web.Mvc.dll
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\System.Web.Optimization.dll
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\System.Web.Razor.dll
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\System.Web.WebPages.Deployment.dll
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\System.Web.WebPages.dll
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\System.Web.WebPages.Razor.dll
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\WebGrease.dll
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\System.Web.Helpers.xml
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\System.Web.Mvc.xml
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\System.Web.Optimization.xml
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\System.Web.Razor.xml
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\System.Web.WebPages.xml
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\System.Web.WebPages.Deployment.xml
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\System.Web.WebPages.Razor.xml
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Antlr3.Runtime.pdb
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Newtonsoft.Json.xml
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\EntityFramework.xml
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\EntityFramework.SqlServer.xml
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.AspNet.Identity.Core.xml
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.xml
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.xml
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.Facebook.xml
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.Cookies.xml
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.OAuth.xml
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.Google.xml
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.Twitter.xml
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\obj\Debug\AplicatieSalariati.csprojResolveAssemblyReference.cache
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\obj\Debug\AplicatieSalariati.Migrations.InitialCreate.resources
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\obj\Debug\AplicatieSalariati.Migrations.FirstMigration.resources
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\obj\Debug\AplicatieSalariati.Migrations.Required_Fields.resources
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\obj\Debug\AplicatieSalariati.csproj.GenerateResource.Cache
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\obj\Debug\AplicatieSalariati.csproj.CoreCompileInputs.cache
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\obj\Debug\AplicatieSalariati.dll
+D:\VisualStudio\AplicatieSalariati\AplicatieSalariati\obj\Debug\AplicatieSalariati.pdb
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\roslyn\csc.exe
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\roslyn\vbc.exe
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\roslyn\VBCSCompiler.exe
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\AplicatieSalariati.dll.config
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\AplicatieSalariati.dll
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\AplicatieSalariati.pdb
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\Antlr3.Runtime.dll
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\EntityFramework.dll
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\EntityFramework.SqlServer.dll
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.dll
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.dll
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\Newtonsoft.Json.dll
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\Owin.dll
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\System.Web.Helpers.dll
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\System.Web.Mvc.dll
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\System.Web.Optimization.dll
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\System.Web.Razor.dll
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\System.Web.WebPages.dll
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\System.Web.WebPages.Razor.dll
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\WebGrease.dll
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\System.Web.Helpers.xml
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\System.Web.Mvc.xml
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\System.Web.Optimization.xml
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\System.Web.Razor.xml
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\System.Web.WebPages.xml
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\System.Web.WebPages.Razor.xml
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\Antlr3.Runtime.pdb
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\Newtonsoft.Json.xml
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\EntityFramework.xml
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\EntityFramework.SqlServer.xml
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.xml
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.xml
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\obj\Debug\AplicatieSalariati.csprojResolveAssemblyReference.cache
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\obj\Debug\AplicatieSalariati.dll
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\obj\Debug\AplicatieSalariati.pdb
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\obj\Debug\AplicatieSalariati.Migrations.GOGO.resources
+C:\Users\Flavius FUDULU\Documents\AplicatieSalariati\AplicatieSalariati\obj\Debug\AplicatieSalariati.csproj.GenerateResource.Cache
