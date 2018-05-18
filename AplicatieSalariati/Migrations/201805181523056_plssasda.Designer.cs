@@ -6,14 +6,14 @@ namespace AplicatieSalariati.Migrations
     using System.Data.Entity.Migrations.Infrastructure;
     using System.Resources;
     
-    [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class FirstMigration : IMigrationMetadata
+    [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
+    public sealed partial class plssasda : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(FirstMigration));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(plssasda));
         
         string IMigrationMetadata.Id
         {
-            get { return "201612311104475_FirstMigration"; }
+            get { return "201805181523056_plssasda"; }
         }
         
         string IMigrationMetadata.Source

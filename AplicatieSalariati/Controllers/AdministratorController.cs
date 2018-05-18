@@ -11,12 +11,12 @@ using AplicatieSalariati.Models;
 namespace AplicatieSalariati.Controllers
 {
     [Authorize]
-    public class SalariatController : Controller
+    public class AdministratorController : Controller
     {
         private ApplicationDbContext db = new ApplicationDbContext();
         private TaxePrestabiliteModel taxePrestabilite;
 
-        public SalariatController() {
+        public AdministratorController() {
             taxePrestabilite = db.TaxePrestabilite.FirstOrDefault();
         }
 
@@ -25,8 +25,8 @@ namespace AplicatieSalariati.Controllers
         {
             ViewBag.Message = (message == null) ? "" : message;
             ViewBag.Type = type;
-            var salariatList = db.Salariati.Where(a => a.Nume.Contains(query) || a.Prenume.Contains(query)).ToList();
-            return View(salariatList);
+            var dateAdministratoriList = db.DateAdministratorModels.Where(a => a.Nume.Contains(query) || a.Prenume.Contains(query)).ToList();
+            return View(dateAdministratoriList);
         }
 
         // GET: Salariat/Details/5
@@ -54,17 +54,16 @@ namespace AplicatieSalariati.Controllers
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        public ActionResult Create([Bind(Include = "Nr_Crt,Nume,Prenume,Functie,Salar_Negociat,Salar_Realizat,Vechime,Spor,Premii_Brute,Compensatie,Total_Brut,Brut_Impozabil,Impozit,CAS,Somaj,Sanatate,Avans,Retineri,RestPlata")] SalariatModel salariatModel)
+        public ActionResult Create([Bind(Include = "CNP,Nume,Prenume,Functie,Adresa,TelefonPersonal,TelefonServici")] DateAdministratorModel dateAdministratorModel)
         {
             if (ModelState.IsValid)
             {
-                CalculeazaTaxe(ref salariatModel);
-                db.Salariati.Add(salariatModel);
+                db.DateAdministratorModels.Add(dateAdministratorModel);
                 db.SaveChanges();
                 return RedirectToAction("Index", new { message = "Creat cu succes!" });
             }
 
-            return View(salariatModel);
+            return View(dateAdministratorModel);
         }
 
         // GET: Salariat/Edit/5

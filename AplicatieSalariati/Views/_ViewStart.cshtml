@@ -1,3 +1,19 @@
 ﻿@{
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    string cLayout = "";
+    if (Request.IsAuthenticated)
+    {
+        if (HttpContext.Current.User.IsInRole("SuperUser"))
+        {
+            cLayout = "~/Views/Shared/_LayoutSuperUser.cshtml";
+        }
+        else
+        {
+            cLayout = "~/Views/Shared/_LayoutUser.cshtml";
+        }
+    }
+    else
+    {
+        cLayout = "~/Views/Shared/_LayoutLoggedOff.cshtml";
+    }
+    Layout = cLayout;
 }

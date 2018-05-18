@@ -27,6 +27,7 @@ namespace AplicatieSalariati.Models
 
         public DbSet<SalariatModel> Salariati { get; set; }
         public DbSet<TaxePrestabiliteModel> TaxePrestabilite { get; set; }
+        public DbSet<DateAdministratorModel> DateAdministratorModels { get; set; }
 
         public static ApplicationDbContext Create()
         {

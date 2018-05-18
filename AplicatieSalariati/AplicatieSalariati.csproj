@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -173,19 +174,25 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\ReportController.cs" />
+    <Compile Include="Controllers\AdministratorController.cs" />
     <Compile Include="Controllers\SalariatController.cs" />
     <Compile Include="Controllers\TaxePrestabiliteController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201803251743324_GOGO.cs" />
-    <Compile Include="Migrations\201803251743324_GOGO.Designer.cs">
-      <DependentUpon>201803251743324_GOGO.cs</DependentUpon>
+    <Compile Include="Migrations\201805181522376_Initial.cs" />
+    <Compile Include="Migrations\201805181522376_Initial.Designer.cs">
+      <DependentUpon>201805181522376_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805181523056_plssasda.cs" />
+    <Compile Include="Migrations\201805181523056_plssasda.Designer.cs">
+      <DependentUpon>201805181523056_plssasda.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\DateAdministratorModel.cs" />
     <Compile Include="Models\SalariatModel.cs" />
     <Compile Include="Models\TaxePrestabiliteModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -227,7 +234,6 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
@@ -263,6 +269,12 @@
     <Content Include="Views\TaxePrestabilite\Index.cshtml" />
     <Content Include="Views\Report\Index.cshtml" />
     <Content Include="Views\Report\Fluturasi.cshtml" />
+    <Content Include="Views\Shared\_LayoutLoggedOff.cshtml" />
+    <Content Include="Views\Shared\_LayoutAngajat.cshtml" />
+    <Content Include="Views\Shared\_LayoutAdministrator.cshtml" />
+    <Content Include="Views\Shared\_LayoutSuperUser.cshtml" />
+    <Content Include="Views\Shared\_LayoutManager.cshtml" />
+    <Content Include="Views\Administrator\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -276,8 +288,11 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201803251743324_GOGO.resx">
-      <DependentUpon>201803251743324_GOGO.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201805181522376_Initial.resx">
+      <DependentUpon>201805181522376_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805181523056_plssasda.resx">
+      <DependentUpon>201805181523056_plssasda.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

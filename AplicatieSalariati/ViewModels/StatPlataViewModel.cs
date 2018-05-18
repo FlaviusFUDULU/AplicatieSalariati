@@ -17,7 +17,7 @@ namespace AplicatieSalariati.ViewModels
             get {
                 double total = 0;
                 foreach (var salariat in Salariati) {
-                    total += salariat.Salar_Negociat;
+                    total += salariat.Salar_Brut;
                 }
                 return total;
             }

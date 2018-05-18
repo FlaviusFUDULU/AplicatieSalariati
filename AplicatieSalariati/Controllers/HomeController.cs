@@ -11,7 +11,14 @@ namespace AplicatieSalariati.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            if (Request.IsAuthenticated)
+            {
+                return View();
+            }
+            else
+            {
+                return View("~/Views/Account/Login.cshtml");
+            }
         }
 
         public ActionResult About()
@@ -21,6 +28,7 @@ namespace AplicatieSalariati.Controllers
                 ViewBag.Message = "Your application description page.";
 
                 return View();
+
             }
             else return new RedirectToRouteResult(new RouteValueDictionary {
                 { "controller", "Account"},

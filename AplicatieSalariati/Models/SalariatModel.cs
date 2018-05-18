@@ -23,9 +23,9 @@ namespace AplicatieSalariati.Models
         [Required]
         public string Functie { get; set; }
 
-        [Display(Name="Salar Negociat")]
+        [Display(Name="Salar Brut")]
         [Required]
-        public double Salar_Negociat { get; set; }
+        public double Salar_Brut { get; set; }
 
         [Display(Name = "Salar Realizat")]
         [Required]
