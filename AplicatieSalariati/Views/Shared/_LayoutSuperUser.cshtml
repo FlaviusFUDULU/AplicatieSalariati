@@ -25,9 +25,11 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                            aria-expanded="false">Administratori<span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li>@Html.ActionLink("Vizualizare Administratori", "Index", "Salariat", new { type = "Edit" }, null)</li>
+                            <li>@Html.ActionLink("Vizualizare Administratori", "Index", "Administrator", new { type = "View" }, null)</li>
+                            <li>@Html.ActionLink("Editare Administratori", "Index", "Administrator", new { type = "Edit" }, null)</li>
                             <li>@Html.ActionLink("Adaugare Administratori", "Create", "Administrator")</li>
-                            <li>@Html.ActionLink("Stergere Administratori", "Index", "Salariat", new { type = "Delete" }, null)</li>
+                            <li>@Html.ActionLink("Stergere Administratori", "Index", "Administrator", new { type = "Delete" }, null)</li>
+
                         </ul>
                     </li>
                     <li class="dropdown">

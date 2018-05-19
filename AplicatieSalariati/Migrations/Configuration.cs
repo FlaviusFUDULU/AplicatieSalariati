@@ -9,7 +9,7 @@ namespace AplicatieSalariati.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = true;
+            AutomaticMigrationsEnabled = false;
         }
 
         protected override void Seed(AplicatieSalariati.Models.ApplicationDbContext context)

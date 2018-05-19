@@ -286,6 +286,7 @@ C:\Users\User\Documents\Repos\AplicatieSalariati\AplicatieSalariati\obj\Debug\Ap
 C:\Users\User\Documents\Repos\AplicatieSalariati\AplicatieSalariati\obj\Debug\AplicatieSalariati.csproj.CopyComplete
 C:\Users\User\Documents\Repos\AplicatieSalariati\AplicatieSalariati\obj\Debug\AplicatieSalariati.dll
 C:\Users\User\Documents\Repos\AplicatieSalariati\AplicatieSalariati\obj\Debug\AplicatieSalariati.pdb
-C:\Users\User\Documents\Repos\AplicatieSalariati\AplicatieSalariati\obj\Debug\AplicatieSalariati.Migrations.Initial.resources
+C:\Users\User\Documents\Repos\AplicatieSalariati\AplicatieSalariati\obj\Debug\AplicatieSalariati.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Repos\AplicatieSalariati\AplicatieSalariati\obj\Debug\AplicatieSalariati.Migrations.reset.resources
 C:\Users\User\Documents\Repos\AplicatieSalariati\AplicatieSalariati\obj\Debug\AplicatieSalariati.csproj.GenerateResource.cache
-C:\Users\User\Documents\Repos\AplicatieSalariati\AplicatieSalariati\obj\Debug\AplicatieSalariati.Migrations.plssasda.resources
+C:\Users\User\Documents\Repos\AplicatieSalariati\AplicatieSalariati\obj\Debug\AplicatieSalariati.Migrations.addedEmail.resources

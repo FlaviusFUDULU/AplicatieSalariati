@@ -36,6 +36,14 @@
     </div>
 
     <div class="form-group">
+        @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-6">
+            @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
         @Html.LabelFor(model => model.Functie, htmlAttributes: new { @class = "control-label col-md-2" })
         <div class="col-md-6">
             @Html.EditorFor(model => model.Functie, new { htmlAttributes = new { @class = "form-control" } })
@@ -70,7 +78,7 @@
     <div class="form-group">
         <div class="col-md-offset-2 col-md-10">
             <input type="submit" value="Adauga" class="btn btn-primary" />
-            <a type="button" value="Cancel" href="@Url.Action("Index", "Home")" class="btn btn-default">Cancel</a>
+            <a type="button" value="Cancel" href="@Url.Action("Index", "Home", new { type = "Create"})" class="btn btn-default">Cancel</a>
         </div>
     </div>
 </div>

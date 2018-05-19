@@ -20,6 +20,8 @@ namespace AplicatieSalariati.Models
         [Required]
         public string Prenume { get; set; }
 
+        public string Email { get; set; }
+
         [Required]
         public string Functie { get; set; }
 

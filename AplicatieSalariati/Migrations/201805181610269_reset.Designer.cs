@@ -7,13 +7,13 @@ namespace AplicatieSalariati.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class plssasda : IMigrationMetadata
+    public sealed partial class reset : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(plssasda));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(reset));
         
         string IMigrationMetadata.Id
         {
-            get { return "201805181523056_plssasda"; }
+            get { return "201805181610269_reset"; }
         }
         
         string IMigrationMetadata.Source

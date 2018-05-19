@@ -180,13 +180,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201805181522376_Initial.cs" />
-    <Compile Include="Migrations\201805181522376_Initial.Designer.cs">
-      <DependentUpon>201805181522376_Initial.cs</DependentUpon>
+    <Compile Include="Migrations\201805181610269_reset.cs" />
+    <Compile Include="Migrations\201805181610269_reset.Designer.cs">
+      <DependentUpon>201805181610269_reset.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201805181523056_plssasda.cs" />
-    <Compile Include="Migrations\201805181523056_plssasda.Designer.cs">
-      <DependentUpon>201805181523056_plssasda.cs</DependentUpon>
+    <Compile Include="Migrations\201805181651178_addedEmail.cs" />
+    <Compile Include="Migrations\201805181651178_addedEmail.Designer.cs">
+      <DependentUpon>201805181651178_addedEmail.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -275,6 +275,10 @@
     <Content Include="Views\Shared\_LayoutSuperUser.cshtml" />
     <Content Include="Views\Shared\_LayoutManager.cshtml" />
     <Content Include="Views\Administrator\Create.cshtml" />
+    <Content Include="Views\Administrator\Delete.cshtml" />
+    <Content Include="Views\Administrator\Index.cshtml" />
+    <Content Include="Views\Administrator\Details.cshtml" />
+    <Content Include="Views\Administrator\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -288,11 +292,11 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201805181522376_Initial.resx">
-      <DependentUpon>201805181522376_Initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201805181610269_reset.resx">
+      <DependentUpon>201805181610269_reset.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805181523056_plssasda.resx">
-      <DependentUpon>201805181523056_plssasda.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201805181651178_addedEmail.resx">
+      <DependentUpon>201805181651178_addedEmail.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

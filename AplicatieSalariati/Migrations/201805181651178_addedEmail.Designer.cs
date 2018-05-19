@@ -7,13 +7,13 @@ namespace AplicatieSalariati.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class Initial : IMigrationMetadata
+    public sealed partial class addedEmail : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Initial));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(addedEmail));
         
         string IMigrationMetadata.Id
         {
-            get { return "201805181522376_Initial"; }
+            get { return "201805181651178_addedEmail"; }
         }
         
         string IMigrationMetadata.Source

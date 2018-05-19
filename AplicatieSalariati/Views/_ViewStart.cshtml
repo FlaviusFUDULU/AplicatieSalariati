@@ -6,9 +6,9 @@
         {
             cLayout = "~/Views/Shared/_LayoutSuperUser.cshtml";
         }
-        else
+        else if (HttpContext.Current.User.IsInRole("Admin"))
         {
-            cLayout = "~/Views/Shared/_LayoutUser.cshtml";
+            cLayout = "~/Views/Shared/_LayoutAdministrator.cshtml";
         }
     }
     else
