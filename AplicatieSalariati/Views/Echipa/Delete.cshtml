@@ -1,0 +1,68 @@
+﻿@model AplicatieSalariati.Models.DateEchipaModel
+
+@{
+    ViewBag.Title = "Ștergere Echipa";
+}
+
+<h2>Ștergere Administrator</h2>
+
+<div>
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NumeEchipa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NumeEchipa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NumeManager)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NumeManager)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NrTelManager)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NrTelManager)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EmailEchipa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EmailEchipa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DomeniulDeFunctionare)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DomeniulDeFunctionare)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Adresa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Adresa)
+        </dd>
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-primary" /> @*|*@
+            <a type="button" value="Cancel" href="@Url.Action("Index", "Echipa", new { type = "Delete"})" class="btn btn-default">Cancel</a>
+        </div>
+    }
+</div>

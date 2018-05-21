@@ -10,6 +10,14 @@
         {
             cLayout = "~/Views/Shared/_LayoutAdministrator.cshtml";
         }
+        else if (HttpContext.Current.User.IsInRole("Manager"))
+        {
+            cLayout = "~/Views/Shared/_LayoutManager.cshtml";
+        }
+        else if (HttpContext.Current.User.IsInRole("Angajat"))
+        {
+            cLayout = "~/Views/Shared/_LayoutAngajat.cshtml";
+        }
     }
     else
     {

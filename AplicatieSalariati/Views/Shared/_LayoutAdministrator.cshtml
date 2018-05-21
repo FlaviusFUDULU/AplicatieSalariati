@@ -22,16 +22,24 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Pagina pornire", "Index", "Home")</li>
-                    @*<li>@Html.ActionLink("About", "About", "Home")</li>*@
-                    @*<li>@Html.ActionLink("Contact", "Contact", "Home")</li>*@
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                           aria-expanded="false">Manageri<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li>@Html.ActionLink("Vizualizare Manageri", "Index", "Manager", new { type = "View" }, null)</li>
+                            <li>@Html.ActionLink("Adaugare Manageri", "Create", "Manager")</li>
+                            <li>@Html.ActionLink("Stergere Manageri", "Index", "Manager", new { type = "Delete" }, null)</li>
+                            <li>@Html.ActionLink("Editare Manageri", "Index", "Manager", new { type = "Edit" }, null)</li>
+                        </ul>
+                    </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                            aria-expanded="false">Echipe<span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li>@Html.ActionLink("Vizualizare Echipe", "Index", "Salariat", new { type = "Calcul" }, null)</li>
-                            <li>@Html.ActionLink("Adaugare Echipe", "Create", "Salariat")</li>
-                            <li>@Html.ActionLink("Stergere Echipe", "Index", "Salariat", new { type = "Delete" }, null)</li>
-                            <li>@Html.ActionLink("Editare Echipe", "Index", "Salariat", new { type = "Delete" }, null)</li>
+                            <li>@Html.ActionLink("Vizualizare Echipe", "Index", "Echipa", new { type = "View" }, null)</li>
+                            <li>@Html.ActionLink("Adaugare Echipe", "Create", "Echipa")</li>
+                            <li>@Html.ActionLink("Stergere Echipe", "Index", "Echipa", new { type = "Delete" }, null)</li>
+                            <li>@Html.ActionLink("Editare Echipe", "Index", "Echipa", new { type = "Edit" }, null)</li>
                         </ul>
                     </li>
                     <li class="dropdown">

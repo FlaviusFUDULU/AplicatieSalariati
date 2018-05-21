@@ -7,6 +7,8 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using AplicatieSalariati.Models;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
 
 namespace AplicatieSalariati.Controllers
 {
@@ -61,6 +63,8 @@ namespace AplicatieSalariati.Controllers
                 CalculeazaTaxe(ref salariatModel);
                 db.Salariati.Add(salariatModel);
                 db.SaveChanges();
+                createAngajatUser(salariatModel.Nume, salariatModel.Prenume, 
+                                    salariatModel.Nume, salariatModel.Nume);
                 return RedirectToAction("Index", new { message = "Creat cu succes!" });
             }
 
@@ -166,6 +170,65 @@ namespace AplicatieSalariati.Controllers
                 model.RestPlata = Math.Round((model.Total_Brut - model.Impozit - model.CAS - model.Somaj - model.Sanatate - model.Retineri - model.Avans), precision);
             }
             return model;
+        }
+        private void createAngajatUser(string nume, string prenume, string email, string cnp)
+        {
+            ApplicationDbContext context = new ApplicationDbContext();
+
+            var roleManager = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>(context));
+            var UserManager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(context));
+            // first we create Admin rool   
+            var role = new Microsoft.AspNet.Identity.EntityFramework.IdentityRole();
+            role.Name = "Angajat";
+            roleManager.Create(role);
+
+            //Here we create a Admin super user who will maintain the website                  
+
+            var user = new ApplicationUser();
+            user.UserName = prenume.ToLower()[0] + nume.ToLower();
+            user.Email = email.ToLower();
+
+            string userPWD = "123456";
+
+            var chkUser = UserManager.Create(user, userPWD);
+
+            //Add default User to Role Admin   
+            if (chkUser.Succeeded)
+            {
+                var result1 = UserManager.AddToRole(user.Id, "Angajat");
+
+            }
+
+            //SmtpClient client = new SmtpClient();
+            //client.DeliveryMethod = SmtpDeliveryMethod.Network;
+            //client.EnableSsl = true;
+            //client.Host = "smtp.gmail.com";
+            //client.Port = 587;
+
+            //// setup Smtp authentication
+            //System.Net.NetworkCredential credentials =
+            //    new System.Net.NetworkCredential("fudulu.flavius@gmail.com", "cib3rweb");
+            //client.UseDefaultCredentials = false;
+            //client.Credentials = credentials;
+
+            //MailMessage msg = new MailMessage();
+            //msg.From = new MailAddress("fudulu.flavius@gmail.com");
+            //msg.To.Add(new MailAddress(email));
+
+            //msg.Subject = "Credentials";
+            //msg.IsBodyHtml = true;
+            //msg.Body = string.Format("<html><head></head><body><b>The password is your cnp</b></body>");
+
+            //try
+            //{
+            //    client.Send(msg);
+            //    //lblMsg.Text = "Your message has been successfully sent.";
+            //}
+            //catch (Exception ex)
+            //{
+            //    //lblMsg.ForeColor = Color.Red;
+            //    //lblMsg.Text = "Error occured while sending your message." + ex.Message;
+            //}
         }
         #endregion
     }

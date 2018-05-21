@@ -171,6 +171,9 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\EchipaController.cs" />
+    <Compile Include="Controllers\AngajatController.cs" />
+    <Compile Include="Controllers\ManagerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\ReportController.cs" />
@@ -188,8 +191,27 @@
     <Compile Include="Migrations\201805181651178_addedEmail.Designer.cs">
       <DependentUpon>201805181651178_addedEmail.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201805190907521_Manager+partialEchipe.cs" />
+    <Compile Include="Migrations\201805190907521_Manager+partialEchipe.Designer.cs">
+      <DependentUpon>201805190907521_Manager+partialEchipe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805191021205_stupiiid.cs" />
+    <Compile Include="Migrations\201805191021205_stupiiid.Designer.cs">
+      <DependentUpon>201805191021205_stupiiid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805211132302_angajat ready.cs" />
+    <Compile Include="Migrations\201805211132302_angajat ready.Designer.cs">
+      <DependentUpon>201805211132302_angajat ready.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805211156135_small changes.cs" />
+    <Compile Include="Migrations\201805211156135_small changes.Designer.cs">
+      <DependentUpon>201805211156135_small changes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\DateAngajatModel.cs" />
+    <Compile Include="Models\DateManagerModel.cs" />
+    <Compile Include="Models\DateEchipaModel.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\DateAdministratorModel.cs" />
@@ -279,6 +301,21 @@
     <Content Include="Views\Administrator\Index.cshtml" />
     <Content Include="Views\Administrator\Details.cshtml" />
     <Content Include="Views\Administrator\Edit.cshtml" />
+    <Content Include="Views\Manager\Create.cshtml" />
+    <Content Include="Views\Manager\Delete.cshtml" />
+    <Content Include="Views\Manager\Details.cshtml" />
+    <Content Include="Views\Manager\Edit.cshtml" />
+    <Content Include="Views\Manager\Index.cshtml" />
+    <Content Include="Views\Echipa\Create.cshtml" />
+    <Content Include="Views\Echipa\Delete.cshtml" />
+    <Content Include="Views\Echipa\Details.cshtml" />
+    <Content Include="Views\Echipa\Edit.cshtml" />
+    <Content Include="Views\Echipa\Index.cshtml" />
+    <Content Include="Views\Angajat\Create.cshtml" />
+    <Content Include="Views\Angajat\Delete.cshtml" />
+    <Content Include="Views\Angajat\Details.cshtml" />
+    <Content Include="Views\Angajat\Edit.cshtml" />
+    <Content Include="Views\Angajat\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -297,6 +334,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201805181651178_addedEmail.resx">
       <DependentUpon>201805181651178_addedEmail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805190907521_Manager+partialEchipe.resx">
+      <DependentUpon>201805190907521_Manager+partialEchipe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805191021205_stupiiid.resx">
+      <DependentUpon>201805191021205_stupiiid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805211132302_angajat ready.resx">
+      <DependentUpon>201805211132302_angajat ready.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805211156135_small changes.resx">
+      <DependentUpon>201805211156135_small changes.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
